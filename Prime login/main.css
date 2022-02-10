@@ -1,0 +1,116 @@
+*
+{
+    box-sizing: border-box;
+    margin: auto;
+}
+img{
+    width:170px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    top: 0;
+
+}
+.login{
+    border: 1px solid grey;
+    padding: 20px;
+    display: inline-block;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    align-items: center;
+    line-height: 19px;
+    margin-bottom: 22px;
+    position: absolute;
+    font-size: 13px;
+    background-position: center;
+    margin-left: 40%;
+    line-height: 1.5;
+
+}
+
+#mail,#pass{
+    width: 300px;
+    height: 30px;
+}
+.but{
+    border-radius: 0.3rem;
+    width: 300px;
+    height: 35px;
+    background: #FF9900;
+    z-index: 20;
+    opacity: .75;
+    cursor: pointer;
+    border-width: thin;
+    font-weight: bold;
+}
+#passbhul{
+    text-decoration: none;
+    position: relative;
+    left: 98px;
+    color: #0066c0;
+}
+.one,.two{
+    text-decoration: none;
+    color: #0066c0;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.new{
+    text-align: center;
+    opacity: 0.6;
+}
+.detail{
+    text-decoration: none;
+    color: #0066c0;
+}
+.last{
+    border-radius: 0.3rem;
+    width: 300px;
+    height: 35px;
+    border-width: thin;
+    cursor: pointer;
+    font-weight: bold;
+    opacity: .75;
+}
+label{
+    font-size: 13px;
+}
+.siz{
+    font-size: 12px;
+    line-height: 1.5
+}
+.b,.c{
+    font-weight: bold;
+}
+#passbhul:hover,.one:hover,.two:hover,.detail:hover{
+    color: #FF9900;
+}
+.but:hover,.last:hover{
+    opacity: 1;
+}
+.lin{
+    position: relative;
+    top: 515px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.465;
+}
+.uno,.dos,.tres{
+    text-decoration: none;
+    color: #0066c0;
+}
+.uno:hover,.dos:hover,.tres:hover{
+    color: #FF9900;
+}
+.las{
+    position: relative;
+    top: 510px;
+    font-size: 15px;
+}
+.horline{
+    position: relative;
+    top: 505px;
+}
